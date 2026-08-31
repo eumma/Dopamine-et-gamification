@@ -1,42 +1,36 @@
 /* 1. Déclaration des polices locales */
 @font-face {
   font-family: "Clash Display";
-  src: url("./fonts/ClashDisplay-Regular.otf");
-  font-weight: normal;
-  font-style: normal;
+  src: url("./fonts/ClashDisplay-Regular.otf"); /* Adapte l'extension .otf ou .ttf selon ton fichier */
   font-display: swap;
 }
 
 @font-face {
   font-family: "Bankara Grotesk";
-  src: url("./fonts/bankara-grotesk.ttf");
-  font-weight: normal;
-  font-style: normal;
+  src: url("./fonts/BankaraGrotesk-Regular.otf"); /* Adapte le nom exact du fichier */
   font-display: swap;
 }
 
 @font-face {
   font-family: "Microserif";
-  src: url("./fonts/Microserif.ttf");
-  font-weight: normal;
-  font-style: normal;
+  src: url("./fonts/Microserif-Regular.otf"); /* Adapte le nom exact du fichier */
   font-display: swap;
 }
 
-/* 2. Tes variables et ton code existant */
+/* 2. Variables corrigées avec des espaces après les virgules */
 :root {
-  --black:#121212;
-  --white:#fff;
-  --purple:#351888;
-  --pastel-purple:#d2c2ff;
-  --pastel-green:#b6fb9a;
-  --display:"Clash Display","Arial Narrow","Helvetica Neue",Arial,sans-serif;
-  --bankara:"Bankara Grotesk","Helvetica Neue",Helvetica,Arial,sans-serif;
-  --sans:"Helvetica Neue",Helvetica,Arial,sans-serif;
-  --serif:"Microserif","Courier New",monospace;
+  --black: #121212;
+  --white: #fff;
+  --purple: #351888;
+  --pastel-purple: #d2c2ff;
+  --pastel-green: #b6fb9a;
+  --display: "Clash Display", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --bankara: "Bankara Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --serif: "Microserif", "Courier New", monospace;
 }
 
-* { box-sizing:border-box; }
+* { box-sizing: border-box; }
 
 
 
