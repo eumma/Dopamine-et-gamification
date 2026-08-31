@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Introduction — Master UX/UI Design">
+  <title>Introduction — Master UX/UI Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="--accent-color: #FFB991 ;">
+
+  <section class="pause-menu" aria-label="Menu de navigation" aria-hidden="true">
+    <header class="pause-menu__header"><button class="pause-menu__close" type="button" data-menu-close aria-label="Fermer le menu"><img src="assets/menu-icon-1.svg" alt=""></button><span>favard emma | 2025 - 2026</span></header>
+    <nav class="pause-menu__content" aria-label="Pages">
+      <h2>PAUSE</h2>
+      <button type="button" data-page="introduction">introduction</button>
+      <button type="button" data-page="chapter-I">chapitre I</button>
+      <button type="button" data-page="chapter-II">chapitre II</button>
+      <button type="button" data-page="chapter-III">chapitre III</button>
+      <button type="button" data-page="chapter-IV">chapitre IV</button>
+      <button type="button" data-page="conclusion">conclusion</button>
+      <button type="button" data-page="bibliographie">bibliographie</button>
+      <button type="button" data-page="quitter">quitter</button>
+    </nav>
+  </section>
+
+  <header class="site-header">
+    <nav class="nav-content" aria-label="Navigation principale"><button class="menu" type="button" data-menu-open>menu</button><span>favard emma | 2025 - 2026</span></nav>
+  </header>
+
+  <div class="progress" aria-label="Progression de la page"></div>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title" style="--theme-color: #FFB991 ;">
+      <div class="bubble">
+        <svg class="bubble__svg" viewBox="0 0 300 150" preserveAspectRatio="none">
+          <!-- Fond coloré dynamique -->
+          <path class="bubble__fill" d="
+            M 12,0 
+            H 288 V 6 H 294 V 12 H 300 
+            V 114 H 294 V 120 H 288 V 126 
+            H 48 V 132 H 42 V 138 H 36 V 144 H 30 V 150 H 24 V 144 H 24 V 132 H 30 V 126 
+            H 12 V 120 H 6 V 114 H 0 
+            V 12 H 6 V 6 H 12 Z" />
+          
+          <!-- Contour blanc fixe -->
+          <path class="bubble__outline" vector-effect="non-scaling-stroke" d="
+            M 12,0 
+            H 288 V 6 H 294 V 12 H 300 
+            V 114 H 294 V 120 H 288 V 126 
+            H 48 V 132 H 42 V 138 H 36 V 144 H 30 V 150 H 24 V 144 H 24 V 132 H 30 V 126 
+            H 12 V 120 H 6 V 114 H 0 
+            V 12 H 6 V 6 H 12 Z" />
+        </svg>
+
+        <h1 id="page-title">INTRODUCTION</h1>
+      </div>
+    </section>
+
+    <article class="content">
+      <p>Il y a quelques années, je faisais partie de ces personnes qui avaient installé Duolingo afin de pouvoir progresser dans une langue étrangère en particulier. Le début était sympa, le concept qu’une leçon représente un niveau et que lorsqu’on le réussit, on gagne en expérience, non seulement personnelle, mais aussi dans l’application avec les niveaux. J’avais vraiment l’impression de découvrir un nouveau jeu vidéo finalement. Puis, avec le temps, j’ai fini par désinstaller Duolingo. Pas parce que je ne voulais plus apprendre, mais parce que j'avais réalisé que je n'ouvrais plus l'application pour m’instruire : je l'ouvrais pour ne pas perdre ma série de connexion. Plus de 300 jours de connexion, quasi un an, à ne pas avoir le droit de rater ne serait-ce qu'un seul jour. Ce n'était plus de la motivation. C'était de la peur.</p>
+
+      <p>Cette métamorphose, imperceptible au début mais qui devient progressive, est exactement ce dont ce mémoire parle. <br> Ce moment précis où quelque chose qui ressemblait à un choix libre devient une obligation ressentie. <br> Où la jauge à remplir cesse d'être un outil et commence à être une contrainte. <br> Où l'application ne nous aide plus, elle nous tient.
+      </p>
+
+      <p>Ce phénomène a un nom : la gamification. Le principe ? Intégrer des mécaniques du jeu dans des contextes qui n'en sont pas. Des badges, des niveaux, des classements, des séries à maintenir, des notifications qui vous rappellent que vous êtes en retard sur vous-même. Elle s'est glissée partout, si progressivement qu'on n'a presque pas remarqué. Dans les applications de sport, d'apprentissage, de productivité, de santé. Dans la façon dont on interagit avec nos amis. Dans les petites décisions de notre quotidien. Partout.</p>
+
+      <p>On nous dit que c'est pour notre bien. Que ça nous aide à nous dépasser, à créer de bonnes habitudes, à rester engagés sur des objectifs qui comptent pour nous. Et c'est vrai, en partie. Les applications gamifiées fonctionnent, les chiffres d'engagement le prouvent, les études comportementales le confirment, si bien que ce processus ne cesse de se répandre. Mais il y a une autre partie de l'histoire, moins racontée, moins mise en avant par ceux qui conçoivent et commercialisent ces systèmes. Une partie plus inconfortable, comme une face cachée de l’iceberg. C'est cette partie que j'ai voulu explorer.</p>
+
+      <p>Ce mémoire est né d'une thématique : la dopamine. Ce neurotransmetteur que tout le monde cite, dans les podcasts de développement personnel comme dans les discours anxieux sur les écrans, et que presque personne ne comprend vraiment. Ce mot devenu raccourci, fourre-tout, explication universelle de tout ce qu'on ne sait pas nommer. On dit « dopamine » pour dire addiction, plaisir, motivation, dépendance, bonheur, bref souvent en même temps, souvent à tort.</p>
+
+      <p>La réalité neurobiologique est à la fois plus précise et plus troublante. La dopamine n'est pas la molécule du plaisir. Elle est la molécule de l'anticipation. Et cette distinction,qui peut sembler technique, presque anecdotique,change radicalement la façon dont on comprend ce que font les applications numériques à nos cerveaux. Comprendre la dopamine, c'est commencer à comprendre pourquoi on ne peut pas s'arrêter de scroller, pourquoi on ressent une anxiété réelle quand on rate une notification, pourquoi on est incapable de laisser une jauge à moitié remplie. Ce n'est pas une question de discipline ou de volonté,c'est une question de biologie exploitée avec précision.</p>
+
+      <p>La question qui traverse alors ce mémoire est la suivante : <br> Dans quelle mesure la gamification des applications de développement personnel  parvient-elle à stimuler la motivation des utilisateurs tout en instaurant de nouvelles formes de pression comportementale ?
+      </p>
+
+      <p>Je ne prétends pas y répondre de façon tranchée. La réalité est plus nuancée que cela, et ce mémoire l'est aussi. Ce que je veux, c'est regarder honnêtement ce que ces dispositifs font à ceux qui les utilisent,et ce qu'ils m'ont fait à moi. Parce que cette recherche ne répond pas seulement à un devoir d’école. Elle répond à une utilisatrice qui a fini par remarquer quelque chose.</p>
+
+    </article>
+
+    <button type="button" class="next">niveau suivant</button>
+  </main>
+
+  <footer><span>Master UX/UI Design</span><span>ECV Digital Paris</span></footer>
+
+  <script src="script.js" defer></script>
+  
+</body>
+</html>

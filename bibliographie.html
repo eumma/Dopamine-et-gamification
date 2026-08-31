@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Introduction — Master UX/UI Design">
+  <title>Introduction — Master UX/UI Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="--accent-color: #A9FFDA;">
+
+  <section class="pause-menu" aria-label="Menu de navigation" aria-hidden="true">
+    <header class="pause-menu__header"><button class="pause-menu__close" type="button" data-menu-close aria-label="Fermer le menu"><img src="assets/menu-icon-1.svg" alt=""></button><span>favard emma | 2025 - 2026</span></header>
+    <nav class="pause-menu__content" aria-label="Pages">
+      <h2>PAUSE</h2>
+      <button type="button" data-page="introduction">introduction</button>
+      <button type="button" data-page="chapter-I">chapitre I</button>
+      <button type="button" data-page="chapter-II">chapitre II</button>
+      <button type="button" data-page="chapter-III">chapitre III</button>
+      <button type="button" data-page="chapter-IV">chapitre IV</button>
+      <button type="button" data-page="conclusion">conclusion</button>
+      <button type="button" data-page="bibliographie">bibliographie</button>
+      <button type="button" data-page="quitter">quitter</button>
+    </nav>
+  </section>
+
+  <header class="site-header">
+    <nav class="nav-content" aria-label="Navigation principale"><button class="menu" type="button" data-menu-open>menu</button><span>favard emma | 2025 - 2026</span></nav>
+  </header>
+
+  <div class="progress" aria-label="Progression de la page"></div>
+
+  <main>
+    <main>
+    <section class="hero" aria-labelledby="page-title" style="--theme-color: #A9FFDA;">
+      <div class="bubble">
+        <svg class="bubble__svg" viewBox="0 0 300 150" preserveAspectRatio="none">
+          <!-- Fond coloré dynamique -->
+          <path class="bubble__fill" d="
+            M 12,0 
+            H 288 V 6 H 294 V 12 H 300 
+            V 114 H 294 V 120 H 288 V 126 
+            H 48 V 132 H 42 V 138 H 36 V 144 H 30 V 150 H 24 V 144 H 24 V 132 H 30 V 126 
+            H 12 V 120 H 6 V 114 H 0 
+            V 12 H 6 V 6 H 12 Z" />
+          
+          <!-- Contour blanc fixe -->
+          <path class="bubble__outline" vector-effect="non-scaling-stroke" d="
+            M 12,0 
+            H 288 V 6 H 294 V 12 H 300 
+            V 114 H 294 V 120 H 288 V 126 
+            H 48 V 132 H 42 V 138 H 36 V 144 H 30 V 150 H 24 V 144 H 24 V 132 H 30 V 126 
+            H 12 V 120 H 6 V 114 H 0 
+            V 12 H 6 V 6 H 12 Z" />
+        </svg>
+
+        <h1 id="page-title">BIBLIOGRAPHIE</h1>
+      </div>
+    </section>
+
+    <article class="content">
+      <h2>Sources principales</h2>
+      <p>CHOU, Yu-kai. Actionable Gamification : Beyond Points, Badges, and Leaderboards. Octalysis Media, 2015, 524 p.</p>
+      <p>DECI, Edward L., KOESTNER, Richard, RYAN, Richard M. « A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation ». Psychological Bulletin, 1999, vol. 125, n° 6, p. 627-668.</p>
+      <p>ALTER, Adam. Irresistible : The Rise of Addictive Technology and the Business of Keeping Us Hooked. Penguin Press, 2017, 354 p.</p>
+      <h2>Sources secondaires</h2>
+      <p>CSIKSZENTMIHALYI, Mihaly. Flow: The Psychology of Optimal Experience. Harper & Row, 1990, 303 p.</p>
+      <p>EYAL, Nir. Hooked: How to Build Habit-Forming Products. Portfolio/Penguin, 2014, 256 p.
+FESTINGER, Leon. « A theory of social comparison processes ». Human Relations, 1954, vol. 7, n° 2, p. 117-140.
+</p>
+      <p>HAIDT, Jonathan, TWENGE, Jean M. Social Media and Mental Health: A Collaborative Review. Preprint, 2021.
+</p>
+      <p>KAHNEMAN, Daniel, TVERSKY, Amos. « Prospect Theory: An Analysis of Decision under Risk ». Econometrica, 1979, vol. 47, n° 2, p. 263-291.</p>
+      <p>MARK, Gloria, GUDITH, Daniela, KLOCKE, Ulrich. « The cost of interrupted work: more speed and stress ». Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 2008, p. 107-110.</p>
+      <p>Markets and Markets. Gamification Market — Global Forecast to 2025. MarketsandMarkets Research, 2020.</p>
+      <p>RYAN, Richard M., DECI, Edward L. « Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being ». American Psychologist, 2000, vol. 55, n° 1, p. 68-78.</p>
+      <p>SCHULTZ, Wolfram. « Predictive reward signal of dopamine neurons ». Journal of Neurophysiology, 1998, vol. 80, n° 1, p. 1-27.</p>
+      <p>SIMON, Herbert A. « Designing Organizations for an Information-Rich World ». In GREENBERGER, Martin (dir.), Computers, Communication, and the Public Interest, The Johns Hopkins Press, 1971, p. 37-72.</p>
+      <p>SKINNER, Burrhus Frederic. The Behavior of Organisms: An Experimental Analysis. Appleton-Century-Crofts, 1938, 457 p.</p>
+      <p>WU, Tim. The Attention Merchants: The Epic Scramble to Get Inside Our Heads. Knopf, 2016, 400 p.</p>
+      <p>ZUBOFF, Shoshana. The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power. PublicAffairs, 2019, 704 p.</p>
+    </article>
+    <button type="button" class="next">quitter</button>
+  </main>
+
+  <footer><span>Master UX/UI Design</span><span>ECV Digital Paris</span></footer>
+
+  <script src="script.js" defer></script>
+  
+</body>
+</html>

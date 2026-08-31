@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Introduction — Master UX/UI Design">
+  <title>Introduction — Master UX/UI Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="--accent-color: #FC90C2;">
+
+  <section class="pause-menu" aria-label="Menu de navigation" aria-hidden="true">
+    <header class="pause-menu__header"><button class="pause-menu__close" type="button" data-menu-close aria-label="Fermer le menu"><img src="assets/menu-icon-1.svg" alt=""></button><span>favard emma | 2025 - 2026</span></header>
+    <nav class="pause-menu__content" aria-label="Pages">
+      <h2>PAUSE</h2>
+      <button type="button" data-page="introduction">introduction</button>
+      <button type="button" data-page="chapter-I">chapitre I</button>
+      <button type="button" data-page="chapter-II">chapitre II</button>
+      <button type="button" data-page="chapter-III">chapitre III</button>
+      <button type="button" data-page="chapter-IV">chapitre IV</button>
+      <button type="button" data-page="conclusion">conclusion</button>
+      <button type="button" data-page="bibliographie">bibliographie</button>
+      <button type="button" data-page="quitter">quitter</button>
+    </nav>
+  </section>
+
+  <header class="site-header">
+    <nav class="nav-content" aria-label="Navigation principale"><button class="menu" type="button" data-menu-open>menu</button><span>favard emma | 2025 - 2026</span></nav>
+  </header>
+
+  <div class="progress" aria-label="Progression de la page"></div>
+
+  <main>
+
+    <section class="hero" aria-labelledby="page-title" style="--theme-color: #FC90C2;">
+      <div class="bubble">
+        <svg class="bubble__svg" viewBox="0 0 300 150" preserveAspectRatio="none">
+          <!-- Fond coloré dynamique -->
+          <path class="bubble__fill" d="
+            M 12,0 
+            H 288 V 6 H 294 V 12 H 300 
+            V 114 H 294 V 120 H 288 V 126 
+            H 48 V 132 H 42 V 138 H 36 V 144 H 30 V 150 H 24 V 144 H 24 V 132 H 30 V 126 
+            H 12 V 120 H 6 V 114 H 0 
+            V 12 H 6 V 6 H 12 Z" />
+          
+          <!-- Contour blanc fixe -->
+          <path class="bubble__outline" vector-effect="non-scaling-stroke" d="
+            M 12,0 
+            H 288 V 6 H 294 V 12 H 300 
+            V 114 H 294 V 120 H 288 V 126 
+            H 48 V 132 H 42 V 138 H 36 V 144 H 30 V 150 H 24 V 144 H 24 V 132 H 30 V 126 
+            H 12 V 120 H 6 V 114 H 0 
+            V 12 H 6 V 6 H 12 Z" />
+        </svg>
+
+        <h1 id="page-title">CHAPITRE III - Ce qu'ils ne vous disent pas</h1>
+      </div>
+    </section>
+
+    <nav class="toc" id="toc" aria-label="Sommaire de la page">
+      <ul>
+          <li><a href="#section-1">La dopamine : molécule de l'anticipation</a></li>
+          <li><a href="#section-2">Skinner avait raison</a></li>
+          <li><a href="#section-3">La friction zéro : quand l'effort disparaît</a></li>
+          <li><a href="#section-4">Quand la récompense tue le plaisir</a></li>
+          <li><a href="#section-5">Le modèle Octalysis : cartographier la motivation</a></li>
+      </ul>
+    </nav>
+
+    <article class="content">
+      <h2 id="section-1">La dopamine : molécule de l'anticipation</h2>
+        <p>On dit souvent que la dopamine est la molécule du plaisir. C'est faux. Ou plutôt, c'est une simplification tellement approximative qu'elle en devient trompeuse, et cette imprécision a des conséquences importantes pour la façon dont on comprend ce que les applications numériques font à nos cerveaux.</p>
+
+        <p>La dopamine est un neurotransmetteur produit principalement dans deux zones du cerveau : la substance noire et l'aire tegmentale ventrale. Elle joue un rôle central dans ce qu'on appelle le circuit de la récompense, un réseau neuronal fondamental présent chez pratiquement tous les vertébrés, qui motive les comportements nécessaires à la survie. Manger, boire, se reproduire, établir des liens sociaux : toutes ces activités provoquent une libération de dopamine qui produit une sensation positive et nous incite à reproduire le comportement. C'est un mécanisme d'apprentissage ancré dans des millions d'années d'évolution.</p>
+
+        <p>Mais, et c'est là que tout se complique, la dopamine ne déclenche pas directement le plaisir. Elle déclenche l'anticipation du plaisir. Ce n'est pas la même chose. Et cette distinction, mise en évidence par le neuroscientifique Schultz (1998), est peut-être la découverte la plus importante pour comprendre la gamification.</p>
+
+        <p>Dans ses expériences, Schultz (1998) a identifié  ce qu'on appelle aujourd'hui l'erreur de prédiction de la récompense. Voici le mécanisme : lorsqu'un signal précède systématiquement une récompense (un son qui annonce de la nourriture, par exemple), les neurones dopaminergiques finissent par s'activer non pas lors de la récompense, mais lors du signal. L'anticipation devient neurobiologiquement plus puissante que la récompense elle-même. Et lorsque la récompense attendue ne se produit pas, l'activité dopaminergique chute sous son niveau de base, produisant une frustration neurobiologique réelle, mesurable, qui pousse à chercher la récompense avec encore plus d'intensité.</p>
+
+        <p>Ce qui aggrave encore ce mécanisme, c'est l'effet de la récompense inattendue. Lorsqu'une récompense survient sans avoir été prédite, donc par surprise, l'activation dopaminergique est maximale. Bien supérieure à ce qu'elle est lorsque la récompense était attendue et certaine. L'incertitude, l'imprévisibilité, la surprise amplifient la réponse dopaminergique. Et c'est précisément ce que les applications exploitent.</p>
+
+        <p>Le scroll infini des réseaux sociaux n'est pas infini par accident. Il est infini parce qu'on ne sait jamais ce qu'on va trouver au prochain contenu, peut-être quelque chose de passionnant, ou rien d'intéressant. Cette incertitude maintient l'anticipation. La notification dont on ne sait pas, avant d'ouvrir l'application, si elle annonce quelque chose d'important ou une simple mise à jour algorithmique, cette incertitude maintient l'attention. La récompense variable n'est pas une faille de conception. C'est une fonctionnalité délibérément intégrée pour maximiser l'engagement dopaminergique des utilisateurs.</p>
+
+        <p>Il y a quelque chose de troublant à réaliser ça. Ce n'est pas que nos cerveaux sont défaillants ou faibles face aux applications. C'est que les applications ont été conçues, précisément, pour cibler les mécanismes qui rendent nos cerveaux efficaces. La dopamine nous a aidés à survivre pendant des millions d'années. Aujourd'hui, elle nous fait ouvrir Instagram à 23h alors qu'on voulait dormir à 22h.</p>
+
+      <h2 id="section-2">Skinner avait raison</h2>
+        <p>Le lien entre neurobiologie dopaminergique et design numérique ne s'est pas construit dans un vide intellectuel. Il s'est construit sur une tradition de recherche comportementale qui remonte aux années 1930 et dont les concepteurs d'applications se sont emparés avec une précision remarquable.</p>
+
+        <p>Skinner (1938), psychologue comportementaliste américain, a consacré une grande partie de sa carrière à étudier les effets de différents régimes de renforcement sur le comportement. Ses expériences sur des rats et des pigeons dans ce qu'on a appelé les « boîtes de Skinner » ont mis en évidence un résultat qui allait traverser les décennies pour s'incarner dans chaque application de nos smartphones : le renforcement à ratio variable, soit la récompense imprévisible, produit les comportements les plus intenses et les plus résistants à l'extinction.</p>
+
+        <p>Concrètement : un rat qui reçoit de la nourriture à chaque fois qu'il appuie sur un levier finit par n'appuyer que lorsqu'il a faim, le comportement est régulé par le besoin réel. Mais un rat qui reçoit de la nourriture de façon aléatoire, sans pouvoir prédire quand la récompense va venir, appuie de façon quasi compulsive, bien au-delà de ce que son besoin justifierait. Il continue même quand la nourriture se fait rare. Il continue même quand il n'y a plus rien. L'espoir de la prochaine récompense maintient le comportement indéfiniment.</p>
+
+        <p>Soixante-dix ans plus tard, Eyal (2014) a formalisé ce principe dans son modèle Hooked, un ouvrage qui est devenu une référence dans les équipes produit des grandes entreprises technologiques. Le modèle décrit quatre étapes : le déclencheur (externe : une notification, ou interne : l'ennui, l'anxiété), l'action (rendue aussi simple et frictionless que possible), la récompense variable (le cœur du système), et l'investissement (le profil complété, la série maintenue, le contenu publié qui augmente l'attachement à la plateforme). Ces quatre étapes forment une boucle conçue pour s'auto-entretenir et transformer un comportement en habitude automatique.</p>
+
+        <p>Alter (2017), dans Irresistible, va encore plus loin dans l'analyse. Il documente comment les équipes qui conçoivent les produits les plus engageants au monde travaillent explicitement à identifier et exploiter les vulnérabilités comportementales de leurs utilisateurs. Il cite des témoignages d'anciens ingénieurs de plateformes majeures qui décrivent des salles entières dédiées à l'optimisation des taux d'engagement, des tests A/B portant sur des détails infimes comme la couleur d'une notification, le moment précis d'un rappel, la formulation exacte d'un message, etc. pour maximiser la réponse comportementale. Ce n'est pas de la conception centrée sur l'utilisateur. C'est de l'ingénierie comportementale.</p>
+
+        <p>Et le résultat est visible. Des comportements qui, observés de l'extérieur, ressemblent trait pour trait à des addictions comportementales. Des utilisateurs qui ouvrent leurs applications de façon réflexe, sans intention consciente formée. Des personnes incapables de laisser leur téléphone dans une autre pièce sans ressentir une anxiété diffuse. Des adolescents qui interrompent une conversation en face à face pour répondre à une notification. La frontière entre habitude choisie et comportement conditionné est devenue, pour beaucoup, impossible à tracer.</p>
+
+      <h2 id="section-3">La friction zéro : quand l'effort disparaît</h2>
+        <p>Un élément complémentaire mérite d'être mentionné, parce qu'il amplifie considérablement les effets du renforcement variable : l'obsession des concepteurs pour ce qu'ils appellent la réduction de friction. Chaque obstacle entre l'utilisateur et l'action souhaitée, que ce soit un clic de trop, un chargement trop long, une interface trop complexe, est perçu comme une menace pour l'engagement. Les équipes produit passent des semaines à supprimer ces frictions, à rendre chaque action aussi fluide, aussi immédiate, aussi effortless que possible.</p>
+
+        <p>Le résultat est une expérience utilisateur dans laquelle le comportement précède systématiquement la réflexion. On ouvre l'application avant d'avoir décidé de l'ouvrir. On like avant d'avoir vraiment regardé. On répond avant d'avoir pensé. La friction, pourtant, n'est pas que négative : elle est aussi le temps dans lequel s'exerce le jugement, la délibération, le choix conscient. En la supprimant, les applications ne rendent pas les utilisateurs plus libres : elles rendent leurs comportements plus automatiques, moins contrôlés, plus proches du réflexe conditionné que de la décision réfléchie. Et c'est exactement ce qu'elles cherchent à produire.</p>
+
+      <h2 id="section-4">Quand la récompense tue le plaisir</h2>
+        <p>Il y a une troisième pièce du puzzle, qui est peut-être la plus contre-intuitive, mais certainement la plus importante pour comprendre les effets à long terme de la gamification sur la motivation humaine. Cette pièce, c'est ce que les psychologues ont mis des décennies à démontrer rigoureusement, et que l'industrie technologique préfère ignorer : les récompenses externes peuvent détruire ce qu'elles prétendent récompenser.</p>
+
+        <p>C'est la conclusion centrale de la méta-analyse publiée par Deci et al. (1999) dans le Psychological Bulletin. Ces trois chercheurs spécialisés dans la théorie de l'autodétermination ont analysé les résultats de 128 études expérimentales indépendantes portant sur les effets des récompenses extrinsèques sur la motivation intrinsèque. Leur synthèse est l'une des plus citées de la littérature en psychologie de la motivation. Et elle est dérangeante.</p>
+
+        <p>Pour comprendre ce qui se joue là, il faut faire la différence entre deux forces qui nous poussent à agir. D'un côté, la motivation intrinsèque : c'est l'envie pure, celle qui vient de nous. On fait quelque chose juste parce qu'on aime ça, sans rien attendre en retour. De l'autre, la motivation extrinsèque : c'est la carotte et le bâton. On agit pour décrocher une récompense (un badge, une note, un score) ou pour éviter une pénalité. On ne fait plus la chose pour le plaisir, mais pour ce qu'elle nous rapporte.</p>
+
+        <p>Leur conclusion à tout ça : lorsqu'on introduit des récompenses externes dans une activité qu'une personne pratique déjà par plaisir ou par intérêt, on tend à diminuer sa motivation intrinsèque pour cette activité. Ce phénomène est connu sous le nom d'effet de sur-justification (overjustification effect). Le mécanisme est le suivant : face à une récompense externe, l'individu réinterprète les raisons de son engagement. Il ne se dit plus « je fais ça parce que j'aime ça », il se dit « je fais ça pour la récompense ». L'activité cesse d'être une fin en soi pour devenir un moyen. Et lorsque la récompense disparaît ou devient prévisible, donc moins stimulante, la motivation disparaît avec elle.</p>
+
+        <p>Un exemple pour rendre ce mécanisme concret. Imaginez quelqu'un qui lit par plaisir. Par curiosité. Par amour des histoires. Cette personne passe des heures dans les livres, spontanément, sans y être contrainte. Vous commencez à lui donner par exemple des bonbons, de l’argent, enfin quelque chose qui lui faisait plaisir, à chaque chapitre lu, donc une récompense externe, visible, mesurable. Elle continue à lire. Elle lit même peut-être davantage, au moins dans un premier temps. Mais quelque chose a changé dans son rapport à l'activité. Elle lit maintenant pour la récompense. L'activité est la même ; la motivation, elle, a glissé vers l'externe. Et le jour où la récompense disparaît ou devient prévisible, elle lira probablement moins qu'avant que le système de récompense n'existe. Vous n'avez pas renforcé son amour de la lecture. Vous l'avez conditionné à lire pour une récompense externe. Et en faisant ça, vous avez fragilisé le moteur le plus durable et le plus profond qui existait.</p>
+
+        <p>Pour la gamification, les implications sont vertigineuses. Toutes ces applications qui introduisent des points, des séries, des badges et des classements dans des activités comme apprendre une langue, marcher, lire, créer, méditer, et bien elles jouent potentiellement contre les intérêts à long terme de leurs utilisateurs. Elles peuvent conditionner ces utilisateurs à n'agir que sous stimulation externe. À attendre la notification pour commencer. À s'arrêter dès que la jauge est remplie. À perdre le goût de l'activité elle-même, réduite à un moyen d'obtenir une récompense numérique.</p>
+
+        <p>Ce qui est particulièrement insidieux, c'est que cet effet est lent et invisible. À court terme, les récompenses fonctionnent. Les taux d'engagement augmentent. Les utilisateurs reviennent. Les métriques sont bonnes. C'est seulement à long terme, sur des mois, des années, que l'érosion de la motivation intrinsèque devient perceptible. Et à ce moment-là, l'utilisateur n'établit généralement pas le lien entre son désintérêt croissant pour l'activité et les mécaniques de récompense qui ont colonisé sa pratique. Il pense simplement qu'il s'est lassé. Qu'il n'est pas assez discipliné. Que l'activité n'était finalement pas faite pour lui.</p>
+
+      <h2 id="section-5">Le modèle Octalysis : cartographier la motivation</h2>
+        <p>Pour mieux comprendre comment les concepteurs pensent et structurent ces systèmes, il est utile de se plonger dans le cadre théorique développé par Chou (2015) dans Actionable Gamification. Chou est l'un des théoriciens les plus reconnus du domaine, et son modèle l'Octalysis constitue une carte particulièrement précise des leviers psychologiques que la gamification peut actionner.</p>
+
+        <p>L'Octalysis identifie huit forces motrices fondamentales de la motivation humaine, organisées en octogone. En résumé :
+          <ul class="cards-grid">
+            <li style="--i: 0;">
+              <span class="card-num">1</span>
+              <p>La première est le sens épique : donner à l'utilisateur le sentiment que ce qu'il fait a de l'importance, qu'il participe à quelque chose de plus grand que lui.</p>
+            </li>
+            <li style="--i: 1;">
+              <span class="card-num">2</span>
+              <p>La deuxième est l'accomplissement et le développement : le sentiment de progresser, de maîtriser, de grandir.</p>
+            </li>
+            <li style="--i: 2;">
+              <span class="card-num">3</span>
+              <p>La troisième est l'empowerment créatif : la liberté d'expérimenter, de créer, d'explorer.</p>
+            </li>
+            <li style="--i: 3;">
+              <span class="card-num">4</span>
+              <p>La quatrième est la propriété et la possession : l'attachement à ce qu'on a construit, accumulé, personnalisé.</p>
+            </li>
+            <li style="--i: 4;">
+              <span class="card-num">5</span>
+              <p>La cinquième est l'influence sociale : le besoin d'appartenance, de reconnaissance, de compétition avec les pairs.</p>
+            </li>
+            <li style="--i: 5;">
+              <span class="card-num">6</span>
+              <p>La sixième est la rareté : le désir de ce qui est limité, exclusif, difficile à obtenir.</p>
+            </li>
+            <li style="--i: 6;">
+              <span class="card-num">7</span>
+              <p>La septième est l'imprévisibilité : la curiosité face à l'inconnu, l'excitation de la surprise.</p>
+            </li>
+            <li style="--i: 7;">
+              <span class="card-num">8</span>
+              <p>La huitième est l'évitement de la perte : la peur de perdre ce qu'on a construit, de rompre une série, de régresser.</p>
+            </li>
+          </ul>
+        </p>
+
+        <p>Ce cadre est précieux non pas parce qu'il dit quelque chose d'entièrement nouveau, mais parce qu'il rend visible ce qui était jusqu'alors implicite. Il montre que les concepteurs d'applications ne travaillent pas au hasard : ils ciblent délibérément des leviers psychologiques spécifiques, en sachant exactement quels effets ils cherchent à produire. Et la distinction que Chou (2015) introduit entre les leviers dits « White Hat » (ceux qui s'appuient sur des émotions positives comme le sens, la créativité, l'accomplissement) et les leviers dits « Black Hat » (ceux qui exploitent des émotions plus anxiogènes comme la peur de perdre, la rareté ou la pression sociale) est particulièrement éclairante.</p>
+
+        <p>Les applications les plus efficaces en termes d'engagement, pas nécessairement les plus bénéfiques pour leurs utilisateurs, sont souvent celles qui mobilisent massivement les leviers Black Hat. La flamme Duolingo qui s'éteint si on n'ouvre pas l'application (évitement de la perte). Les stories Instagram qui disparaissent au bout de 24 heures et poussent à se connecter sous peine de rater quelque chose (rareté et peur de l'exclusion). Les offres limitées dans le temps sur les applications de commerce (rareté). Ces mécaniques sont puissantes parce qu'elles activent des zones d'anxiété. Et l'anxiété, neurologiquement, maintient l'attention bien plus efficacement que le plaisir.</p>
+
+        <p>Ce que le modèle d'Octalysis révèle au fond, c'est que la gamification n'est jamais neutre. Chaque application qui gamifie une expérience fait des choix, des choix sur les leviers qu'elle active, sur les émotions qu'elle cherche à produire, sur la version de l'utilisateur qu'elle cherche à renforcer. Une application qui s'appuie majoritairement sur les leviers White Hat renforce une version de l'utilisateur qui agit par désir et par conviction. Une application qui s'appuie majoritairement sur les leviers Black Hat renforce une version de l'utilisateur qui agit par anxiété et par évitement.</p>
+
+        <p>Or dans l'économie de l'attention telle qu'elle fonctionne aujourd'hui, les leviers Black Hat sont structurellement favorisés. Non pas parce que les designers sont malveillants, mais parce que l'anxiété retient l'attention plus efficacement que la satisfaction, et que les métriques d'engagement ne font pas la différence entre un utilisateur qui revient parce qu'il est heureux et un utilisateur qui revient parce qu'il a peur de perdre sa progression. Les deux comptent pareil dans un tableau de bord. L'un va bien. L'autre, peut-être pas. Mais les chiffres, eux, sont identiques.</p>
+
+        <p>C'est cette indifférence des métriques au bien-être réel des utilisateurs qui constitue l'un des problèmes les plus profonds du design numérique contemporain. Tant que le succès d'une application se mesure au temps passé et au taux de rétention plutôt qu'à la qualité de l'expérience vécue, les incitations à concevoir différemment resteront structurellement faibles. Changer cela ne relève pas seulement de la bonne volonté des designers individuels, cela demande une transformation des critères de succès eux-mêmes, à l'échelle des organisations, des investisseurs, et peut-être des régulateurs.</p>
+
+    </article>
+    <button type="button" class="next">niveau suivant</button>
+  </main>
+
+  <footer><span>Master UX/UI Design</span><span>ECV Digital Paris</span></footer>
+
+  <script src="script.js" defer></script>
+  
+</body>
+</html>

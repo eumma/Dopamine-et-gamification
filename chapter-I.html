@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Master UX/UI Design">
+  <title>Master UX/UI Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="--accent-color: #d2c2ff;">
+
+  <section class="pause-menu" aria-label="Menu de navigation" aria-hidden="true">
+    <header class="pause-menu__header"><button class="pause-menu__close" type="button" data-menu-close aria-label="Fermer le menu"><img src="assets/menu-icon-1.svg" alt=""></button><span>favard emma | 2025 - 2026</span></header>
+    <nav class="pause-menu__content" aria-label="Pages">
+      <h2>PAUSE</h2>
+      <button type="button" data-page="introduction">introduction</button>
+      <button type="button" data-page="chapter-I">chapitre I</button>
+      <button type="button" data-page="chapter-II">chapitre II</button>
+      <button type="button" data-page="chapter-III">chapitre III</button>
+      <button type="button" data-page="chapter-IV">chapitre IV</button>
+      <button type="button" data-page="conclusion">conclusion</button>
+      <button type="button" data-page="bibliographie">bibliographie</button>
+      <button type="button" data-page="quitter">quitter</button>
+    </nav>
+  </section>
+
+  <header class="site-header">
+    <nav class="nav-content" aria-label="Navigation principale">
+      <button class="menu" type="button" data-menu-open>menu</button>
+      <span>favard emma | 2025 - 2026</span></nav>
+  </header>
+
+  <main>
+
+    <section class="hero" aria-labelledby="page-title" style="--theme-color: #d2c2ff;">
+      <div class="bubble">
+        <svg class="bubble__svg" viewBox="0 0 300 150" preserveAspectRatio="none">
+          <!-- Fond coloré dynamique -->
+          <path class="bubble__fill" d="
+            M 12,0 
+            H 288 V 6 H 294 V 12 H 300 
+            V 114 H 294 V 120 H 288 V 126 
+            H 48 V 132 H 42 V 138 H 36 V 144 H 30 V 150 H 24 V 144 H 24 V 132 H 30 V 126 
+            H 12 V 120 H 6 V 114 H 0 
+            V 12 H 6 V 6 H 12 Z" />
+          
+          <!-- Contour blanc fixe -->
+          <path class="bubble__outline" vector-effect="non-scaling-stroke" d="
+            M 12,0 
+            H 288 V 6 H 294 V 12 H 300 
+            V 114 H 294 V 120 H 288 V 126 
+            H 48 V 132 H 42 V 138 H 36 V 144 H 30 V 150 H 24 V 144 H 24 V 132 H 30 V 126 
+            H 12 V 120 H 6 V 114 H 0 
+            V 12 H 6 V 6 H 12 Z" />
+        </svg>
+
+        <h1 id="page-title">CHAPITRE I – Le monde a changé</h1>
+      </div>
+    </section>
+
+    <nav class="toc" id="toc" aria-label="Sommaire de la page">
+      <ul>
+        <li><a href="#section-1">Les chiffres derrière l'écran</a></li>
+        <li><a href="#section-2">Une économie bâtie sur notre attention</a></li>
+        <li><a href="#section-3">La gamification comme langage universel</a></li>
+        <li><a href="#section-4">La vitesse comme valeur</a></li>
+      </ul>
+    </nav>
+
+    <article class="content">
+      <h2 id="section-1">Les chiffres derrière l'écran</h2>
+      <p>Commençons par le commencement : la gamification n'est pas un phénomène marginal. Ce n'est pas une tendance de niche réservée aux geeks ou aux start-ups californiennes en quête de différenciation. C'est une industrie. Une industrie massive, en croissance rapide, dont l'influence s'étend à des secteurs qui n'ont a priori rien à voir avec le jeu vidéo.</p>
+
+      <p>En 2020, le marché mondial de la gamification était estimé à 9,1 milliards de dollars selon le cabinet d'études Markets and Markets (2020). En 2025, les projections le situent à 30,7 milliards. Une croissance annuelle de plus de 27 %, dans un contexte économique global pourtant loin d'être uniformément favorable. Ces chiffres ne parlent pas d'une mode passagère, mais d'une transformation profonde, structurelle, durable, de la façon dont les interfaces numériques sont pensées et construites.</p>
+
+      <p>Du côté des usages, les données sont toutes aussi révélatrices. Duolingo revendique 500 millions d'utilisateurs inscrits dans le monde, dont 40 millions actifs quotidiennement en 2023. Apple Watch et Fitbit ont équipé des dizaines de millions de personnes de systèmes de suivi gamifiés de leurs activités physiques, à savoir anneaux à fermer, objectifs de pas, médailles de performance. Strava transforme chaque sortie de running en expérience sociale comparée. LinkedIn attribue des badges de compétence, mesure l'avancement du profil grâce à une jauge de progression à compléter, et valorise chaque étape de la carrière via des métriques d'engagement et des notifications au réseau. Des outils de productivité comme Habitica ont même transformé la gestion des tâches en jeu de rôle : vos to-do lists deviennent des quêtes, votre discipline personnelle se traduit en points d'expérience, et votre personnage meurt si vous ratez vos objectifs.</p>
+
+      <p>Ce qui est vertigineux dans ces chiffres, c'est ce qu'ils révèlent sur la normalisation du phénomène. Des centaines de millions de personnes, tous les jours, interagissent avec des interfaces qui ont été délibérément conçues pour ressembler à des jeux, sans que celles-ci aient nécessairement choisi de jouer, ni même réalisé qu'elles étaient dans une logique de jeu. La gamification est devenue le langage par défaut du numérique. Et comme tous les langages dominants, elle finit par façonner imperceptiblement la réalité de ceux qui la parlent.</p>
+
+      <h2 id="section-2">Une économie bâtie sur notre attention</h2>
+      <p>Derrière ces chiffres, il y a une logique économique qu'il faut nommer clairement, parce qu'elle explique pourquoi la gamification s'est répandue si vite, si loin, dans tant de contextes différents. Cette logique, c'est celle de l'économie de l'attention.</p>
+
+      <p>Le concept a été forgé par l'économiste Herbert A. Simon (1971), mais il a pris toute sa résonance avec l'explosion des plateformes numériques. Dans ce modèle, l'attention humaine est la ressource la plus rare et la plus précieuse, plus que le capital, plus que les données, plus que n'importe quel bien matériel. Les plateformes numériques ne vendent pas des produits, mais des audiences. Et pour avoir des audiences, il faut capter l'attention le plus longtemps possible, le plus souvent possible, avec le moins de friction possible.</p>
+
+      <p>La gamification est l'un des outils les plus efficaces pour y parvenir. Une interface gamifiée augmente le temps passé sur l'application, la fréquence des visites, la profondeur de l'engagement. Chaque minute supplémentaire passée sur une plateforme est une minute de données comportementales collectées, une exposition publicitaire de plus, une opportunité de conversion commerciale. Les mécaniques de jeu ne servent donc pas d'abord les utilisateurs mais les plateformes qui les déploient. Et cette réalité est rarement explicitée.</p>
+
+      <p>Wu (2016), dans The Attention Merchants, décrit comment cette économie fonctionne depuis bien plus longtemps qu'on ne le croit, à savoir depuis la presse de masse du XIXe siècle, en passant par la radio et la télévision, jusqu'aux plateformes numériques d'aujourd'hui. Ce qui a changé, c'est la précision des outils. Là où les anciens médias attrapaient l'attention en masse, les plateformes numériques la capturent individuellement, en temps réel, en l'adaptant à chaque profil, chaque comportement, chaque vulnérabilité spécifique.</p>
+
+      <p>C'est cette asymétrie d'information et de pouvoir entre les concepteurs et les utilisateurs qui constitue le premier enjeu éthique de la gamification. Les équipes qui conçoivent ces mécaniques disposent d'outils d'analyse comportementale que les utilisateurs n'imaginent pas. Elles savent exactement combien de temps il faut entre deux notifications pour maximiser le retour sur l'application. Elles savent quel type de récompense déclenche le niveau d'activation dopaminergique le plus élevé. Elles testent, mesurent, optimisent en permanence. Et nous, de l'autre côté, on ouvre l'application en pensant choisir librement.</p>
+
+      <h2 id="section-3">La gamification comme langage universel</h2>
+      <p>Pour saisir pleinement l'ampleur du phénomène, il faut comprendre à quel point la gamification a débordé de ses contextes d'origine. Au départ, les mécaniques de jeu étaient principalement utilisées dans le domaine du marketing et de la fidélisation client : les programmes de points des compagnies aériennes, les cartes de fidélité des supermarchés, les systèmes de badges des scouts. Des systèmes anciens, bien rodés, dont l'efficacité était connue sans que personne ne les ait vraiment théorisés.</p>
+
+      <p>Puis le numérique a tout accéléré. En rendant possible une interaction permanente, une mesure en temps réel de chaque comportement et une personnalisation instantanée des feedbacks, les smartphones ont offert aux concepteurs des outils sans précédent pour déployer des stratégies d'engagement à grande échelle. La gamification a alors investi des domaines inattendus : la santé (applications de suivi de médicaments qui attribuent des badges pour chaque prise), le civic engagement (plateformes de participation citoyenne qui gamifient le vote), le travail (logiciels de gestion qui classent les employés sur des tableaux de performance en temps réel), et tant d'autres.</p>
+
+      <p>Aujourd'hui, la gamification est partout, et souvent invisible. Elle ne se présente plus nécessairement sous la forme de badges ou de classements explicites. Elle est dans la barre de progression de votre profil LinkedIn qui n'est jamais à 100 %. Dans le décompte de vos abonnés sur Instagram qui ne cesse de vous rappeler combien vous en avez (et donc combien il vous en manque). Dans le streak de vos messages Snapchat qui disparaît si vous n'envoyez pas de photo aujourd'hui. Le jeu est partout. Il s'est fondu dans le paysage jusqu'à devenir invisible, et donc d'autant plus efficace.</p>
+
+      <h2 id="section-4">La vitesse comme valeur : l'ère du contenu court</h2>
+      <p>Il y a un phénomène qui amplifie tout ce qu'on vient de décrire, et dont on ne peut pas faire l'impasse si on veut comprendre dans quel écosystème la gamification prospère aujourd'hui. Ce phénomène, c'est la domination du contenu court et la normalisation d'une vitesse de consommation sans précédent dans l'histoire des médias.</p>
+
+      <p>TikTok a changé quelque chose de fondamental. Pas seulement dans la façon dont on consomme de la vidéo, mais dans la façon dont on consomme tout. En popularisant le format de la vidéo de quinze secondes à trois minutes, en le rendant hypnotique grâce à un algorithme de recommandation d'une précision redoutable, la plateforme a recalibré les attentes de ses utilisateurs vis-à-vis de la stimulation. Pas seulement sur TikTok, mais partout. Instagram a créé les Reels. YouTube a créé les Shorts. Snapchat a accéléré ses formats. Même LinkedIn s'y est mis. Le contenu court n'est plus une tendance : c'est devenu la norme par défaut d'une grande partie de la communication numérique.</p>
+
+      <p>Ce qui se joue là, c'est une transformation du seuil de tolérance à l'ennui. L'algorithme de TikTok est conçu pour ne jamais vous laisser face à un contenu qui ne vous captive pas immédiatement, si vous ne swipez pas en trois secondes, la vidéo vous a accroché. Si vous swipez, il vous en propose une autre, immédiatement, sans friction, sans pause. Le flux est continu, parfaitement calibré, neurobiologiquement optimisé. Et il entraîne le cerveau à ne tolérer que l'engagement immédiat, à associer la moindre latence, le moindre ennui, à un signal pour passer à autre chose.</p>
+
+      <p>La gamification et le contenu court partagent la même logique dopaminergique : des récompenses rapides, fréquentes, variées. Ce n'est pas un hasard si les deux phénomènes se sont développés simultanément et se renforcent mutuellement. Un utilisateur qui passe plusieurs heures par jour sur TikTok développe une tolérance à la stimulation intense et une impatience face à tout ce qui demande un effort d'attention prolongé. Cet utilisateur, lorsqu'il ouvre Duolingo ou une application de fitness, sera d'autant plus sensible aux mécaniques de récompense rapide et d'autant moins capable de s'engager dans des apprentissages profonds et lents. Les deux systèmes s'alimentent l'un l'autre, créant une spirale dans laquelle la gratification immédiate devient la seule forme d'engagement envisageable.</p>
+
+      <p>Il y a quelque chose de paradoxal dans cette évolution. On n'a jamais eu accès à autant de savoirs, de contenus éducatifs, de ressources d'apprentissage. Et pourtant, les formats qui dominent l'espace numérique sont précisément ceux qui sont les moins adaptés à la transmission réelle de connaissance. Apprendre prend du temps. Comprendre exige de l'inconfort. La pensée profonde ne se développe pas en quinze secondes. Et si nos environnements numériques nous entraînent quotidiennement à fuir cet inconfort-là, ils travaillent, silencieusement, contre notre capacité à apprendre vraiment.</p>
+    </article>
+
+    <button type="button" class="next">niveau suivant</button>
+  </main>
+
+  <footer><span>Master UX/UI Design</span><span>ECV Digital Paris</span></footer>
+
+  <script src="script.js" defer></script>
+  
+</body>
+</html>

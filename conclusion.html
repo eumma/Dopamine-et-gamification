@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Introduction — Master UX/UI Design">
+  <title>Introduction — Master UX/UI Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="--accent-color: #FF7979;">
+
+  <section class="pause-menu" aria-label="Menu de navigation" aria-hidden="true">
+    <header class="pause-menu__header"><button class="pause-menu__close" type="button" data-menu-close aria-label="Fermer le menu"><img src="assets/menu-icon-1.svg" alt=""></button><span>favard emma | 2025 - 2026</span></header>
+    <nav class="pause-menu__content" aria-label="Pages">
+      <h2>PAUSE</h2>
+      <button type="button" data-page="introduction">introduction</button>
+      <button type="button" data-page="chapter-i">chapitre I</button>
+      <button type="button" data-page="chapter-ii">chapitre II</button>
+      <button type="button" data-page="chapter-iii">chapitre III</button>
+      <button type="button" data-page="chapter-iv">chapitre IV</button>
+      <button type="button" data-page="conclu">conclusion</button>
+      <button type="button" data-page="bibliographie">bibliographie</button>
+      <button type="button" data-page="quitter">quitter</button>
+    </nav>
+  </section>
+
+  <header class="site-header">
+    <nav class="nav-content" aria-label="Navigation principale"><button class="menu" type="button" data-menu-open>menu</button><span>favard emma | 2025 - 2026</span></nav>
+  </header>
+
+  <div class="progress" aria-label="Progression de la page"></div>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title" style="--theme-color: #FF7979;">
+      <div class="bubble">
+        <svg class="bubble__svg" viewBox="0 0 300 150" preserveAspectRatio="none">
+          <!-- Fond coloré dynamique -->
+          <path class="bubble__fill" d="
+            M 12,0 
+            H 288 V 6 H 294 V 12 H 300 
+            V 114 H 294 V 120 H 288 V 126 
+            H 48 V 132 H 42 V 138 H 36 V 144 H 30 V 150 H 24 V 144 H 24 V 132 H 30 V 126 
+            H 12 V 120 H 6 V 114 H 0 
+            V 12 H 6 V 6 H 12 Z" />
+          
+          <!-- Contour blanc fixe -->
+          <path class="bubble__outline" vector-effect="non-scaling-stroke" d="
+            M 12,0 
+            H 288 V 6 H 294 V 12 H 300 
+            V 114 H 294 V 120 H 288 V 126 
+            H 48 V 132 H 42 V 138 H 36 V 144 H 30 V 150 H 24 V 144 H 24 V 132 H 30 V 126 
+            H 12 V 120 H 6 V 114 H 0 
+            V 12 H 6 V 6 H 12 Z" />
+        </svg>
+
+        <h1 id="page-title">CONCLUSION</h1>
+      </div>
+    </section>
+
+    <article class="content">
+      <h2>Je n'ai pas réinstallé Duolingo.</h2>
+      <p>Non pas par principe. Non pas parce que cette recherche m'a convaincu que la gamification est mauvaise par essence, et que toute application utilisant des mécaniques de jeu est une manipulation déguisée en service. La réalité est bien plus nuancée que ça, et j'espère que ce mémoire l'a montré.</p>
+      <p>Je n'ai pas réinstallé Duolingo parce que ce travail m'a appris à regarder autrement. À voir ce que je n'avais pas vu quand j'étais dedans : que ce n'était plus moi qui utilisais l'application, mais l'application qui m'utilisait. Et ce regard-là, une fois qu'on l'a développé, on ne peut plus vraiment l'éteindre.</p>
+      <p>Jusqu'où la gamification du développement personnel peut-elle entretenir notre motivation sans basculer dans la pression comportementale ? L'analyse montre que la frontière est très fine. Les deux mécanismes opèrent conjointement, transformant un outil d'épanouissement personnel en un vecteur de tension quotidienne.</p>
+      <p>Elle fonctionne. C'est indéniable, et il serait intellectuellement malhonnête de prétendre le contraire. Des millions de personnes ont appris une langue, adopté de meilleures habitudes physiques, maintenu un effort dans le temps, découvert une pratique bénéfique grâce à des applications gamifiées. Les mécaniques dopaminergiques, le conditionnement comportemental, l'architecture de la progression visible, tout cela produit des effets réels et mesurables sur l'engagement. Et certains de ces effets sont réellement positifs, authentiquement utiles, et véritablement au service de ceux qui les vivent.</p>
+      <p>Mais elle peut aussi défaire ce qu'elle prétend construire. Elle peut éroder la motivation intrinsèque, celle qui vient de l'intérieur, celle qui reste quand on éteint l'écran, celle qui aurait persisté sans application. Elle peut générer une anxiété diffuse et une culpabilité de l'inactivité qui ressemblent à s'y méprendre à de la discipline, mais qui sont en réalité une forme de dépendance à un système de validation externe. Elle peut fragiliser la concentration, fragmenter l'attention, former des habitudes de pensée réactive qui rendent la pensée profonde de plus en plus difficile. Elle peut transformer le regard des autres en pression permanente, quantifiée, impossible à mettre en sourdine. Et elle peut faire tout cela en silence, imperceptiblement, d'une façon qui ressemble tellement à de la motivation libre que les utilisateurs ne voient pas la différence depuis l'intérieur.</p>
+      <p>C'est peut-être ça, le vrai problème. Pas les applications en elles-mêmes, mais l'invisibilité de ce qu'elles font. On ne voit pas les mécaniques. On voit juste une flamme qui brûle, une jauge qui se remplit, un classement qui bouge. On se sent motivé, discipliné, engagé. Et pendant ce temps, quelque chose de plus profond, la motivation intrinsèque, l'autonomie réelle, le rapport authentique à l'activité, s'est peut-être, doucement, évaporé.</p>
+      <p>Pour moi, en tant que future designer, cette réflexion n'est pas abstraite. Elle engage quelque chose de concret dans ma façon de penser mon futur travail. Elle me rappelle que chaque choix de conception est un choix éthique. Que la question « est-ce que ça marche ? » n'est pas suffisante : il faut aussi se demander « pour qui est-ce que ça marche ? », « à quel prix ? », « sur quelle durée ? » et « est-ce qu'on serait à l'aise si les utilisateurs voyaient exactement ce qu'on a cherché à faire ? ».</p>
+      <p>Elle m'a aussi donné envie de questionner ce que l'on considère comme une réussite dans le design numérique. Le taux d'engagement, le temps passé, la fréquence de retour, ces métriques mesurent des comportements, pas des expériences. Elles disent combien de fois quelqu'un est revenu sur une application. Elles ne disent pas si cette personne était heureuse d'y être. Et cette différence, entre mesurer le comportement et mesurer le bien-être,  me semble être l'une des questions les plus importantes que le design d'aujourd'hui devrait se poser.</p>
+      <p>Cette prise de conscience ne concerne pas seulement les designers individuels. Elle interpelle aussi les plateformes en tant qu'organisations, les régulateurs qui peinent à légiférer sur des phénomènes qu'ils comprennent mal, et les utilisateurs eux-mêmes, qui ont, eux aussi, une part de responsabilité dans la façon dont ils choisissent (ou non) d'interroger leurs propres usages. La littératie numérique, cette capacité à lire, comprendre et questionner les mécaniques des interfaces qu'on utilise, n'est pas encore enseignée systématiquement, ni vraiment valorisée dans les cursus scolaires ou professionnels. C'est un manque considérable, à une époque où ces interfaces structurent une part croissante de notre vie cognitive et sociale. Apprendre à voir les mécaniques derrière l'écran devrait être aussi fondamental qu'apprendre à lire. Parce que ceux qui ne le font pas lisent quand même, ils lisent simplement sans savoir qu'on leur dicte le texte.</p>
+      <p>Ce mémoire m'ouvre sur une question qui ira au-delà de cette année de recherche : si la gamification exploite les mécanismes dopaminergiques pour orienter nos comportements, existe-t-il un design qui s'appuierait sur d'autres ressorts, comme la curiosité, le sens, le plaisir brut, la satisfaction de comprendre quelque chose de difficile, pour créer un engagement qui serait, lui, réellement libre ? Un engagement qui existerait même sans les points, sans les séries, sans les classements ? Qui tiendrait dans le silence de l'écran éteint ?</p>
+      <p>Ce serait peut-être ça, le vrai défi du design de demain. Non pas concevoir des interfaces qui nous maintiennent dedans. Concevoir des interfaces qui nous donnent envie d'en sortir, parce qu'on a vraiment appris, vraiment progressé, vraiment vécu quelque chose et non pas parce qu'une flamme orange nous y a forcés.</p>
+    </article>
+    <button type="button" class="next">niveau suivant</button>
+  </main>
+
+  <footer><span>Master UX/UI Design</span><span>ECV Digital Paris</span></footer>
+
+  <script src="script.js" defer></script>
+  
+</body>
+</html>

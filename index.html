@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dopamine - Gamification">
+  <title>Dopamine - Gamification</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="launch-page">
+
+  <section class="launch" aria-label="Écran d'accueil">
+    <div class="launch__loading" aria-label="Chargement en cours"><div class="loading-bar"><span></span></div></div>
+    <div class="launch__home" aria-hidden="true">
+      <header class="launch__header"><button type="button" data-menu-open>menu</button><span>favard emma | 2025 - 2026</span></header>
+      <div class="launch__main">
+        <img class="launch__title" src="assets/home-title.svg" alt="La gamification : entre stimulation de la motivation et pression concurrentielle">
+        <button class="launch__start" type="button">start</button>
+      </div>
+      <footer class="launch__footer"><span>Master UX/UI Design</span><span>ECV Digital Paris</span></footer>
+    </div>
+  </section>
+
+  <section class="pause-menu" aria-label="Menu de navigation" aria-hidden="true">
+    <header class="pause-menu__header"><button class="pause-menu__close" type="button" data-menu-close aria-label="Fermer le menu"><img src="assets/menu-icon-1.svg" alt=""></button><span>favard emma | 2025 - 2026</span></header>
+    <nav class="pause-menu__content" aria-label="Pages">
+      <h2>PAUSE</h2>
+      <button type="button" data-page="introduction">introduction</button>
+      <button type="button" data-page="chapter-I">chapitre I</button>
+      <button type="button" data-page="chapter-II">chapitre II</button>
+      <button type="button" data-page="chapter-III">chapitre III</button>
+      <button type="button" data-page="chapter-IV">chapitre IV</button>
+      <button type="button" data-page="conclusion">conclusion</button>
+      <button type="button" data-page="bibliographie">bibliographie</button>
+      <button type="button" data-page="quitter">quitter</button>
+    </nav>
+  </section>
+
+  <script src="script.js" defer></script>
+
+</body>
+</html>

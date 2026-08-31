@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Introduction — Master UX/UI Design">
+  <title>Introduction — Master UX/UI Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="--accent-color: #F4EEA0;">
+
+  <section class="pause-menu" aria-label="Menu de navigation" aria-hidden="true">
+    <header class="pause-menu__header"><button class="pause-menu__close" type="button" data-menu-close aria-label="Fermer le menu"><img src="assets/menu-icon-1.svg" alt=""></button><span>favard emma | 2025 - 2026</span></header>
+    <nav class="pause-menu__content" aria-label="Pages">
+      <h2>PAUSE</h2>
+      <button type="button" data-page="introduction">introduction</button>
+      <button type="button" data-page="chapter-I">chapitre I</button>
+      <button type="button" data-page="chapter-II">chapitre II</button>
+      <button type="button" data-page="chapter-III">chapitre III</button>
+      <button type="button" data-page="chapter-IV">chapitre IV</button>
+      <button type="button" data-page="conclusion">conclusion</button>
+      <button type="button" data-page="bibliographie">bibliographie</button>
+      <button type="button" data-page="quitter">quitter</button>
+    </nav>
+  </section>
+
+  <header class="site-header">
+    <nav class="nav-content" aria-label="Navigation principale"><button class="menu" type="button" data-menu-open>menu</button><span>favard emma | 2025 - 2026</span></nav>
+  </header>
+
+  <div class="progress" aria-label="Progression de la page"></div>
+
+  <main>
+
+    <section class="hero" aria-labelledby="page-title" style="--theme-color: #F4EEA0;">
+      <div class="bubble">
+        <svg class="bubble__svg" viewBox="0 0 300 150" preserveAspectRatio="none">
+          <!-- Fond coloré dynamique -->
+          <path class="bubble__fill" d="
+            M 12,0 
+            H 288 V 6 H 294 V 12 H 300 
+            V 114 H 294 V 120 H 288 V 126 
+            H 48 V 132 H 42 V 138 H 36 V 144 H 30 V 150 H 24 V 144 H 24 V 132 H 30 V 126 
+            H 12 V 120 H 6 V 114 H 0 
+            V 12 H 6 V 6 H 12 Z" />
+          
+          <!-- Contour blanc fixe -->
+          <path class="bubble__outline" vector-effect="non-scaling-stroke" d="
+            M 12,0 
+            H 288 V 6 H 294 V 12 H 300 
+            V 114 H 294 V 120 H 288 V 126 
+            H 48 V 132 H 42 V 138 H 36 V 144 H 30 V 150 H 24 V 144 H 24 V 132 H 30 V 126 
+            H 12 V 120 H 6 V 114 H 0 
+            V 12 H 6 V 6 H 12 Z" />
+        </svg>
+
+        <h1 id="page-title">CHAPITRE II - Les coupables ont un nom</h1>
+      </div>
+    </section>
+
+    <nav class="toc" id="toc" aria-label="Sommaire de la page">
+      <ul>
+        <li><a href="#section-1">Duolingo, WeWard, Snapchat : trois cas d'école</a></li>
+        <li><a href="#section-2">Les mécaniques du piège</a></li>
+        <li><a href="#section-3">Pourquoi ces mécaniques nous touchent autant</a></li>
+      </ul>
+    </nav>
+
+    <article class="content">
+      <h2 id="section-1">Duolingo, WeWard, Snapchat : trois cas d'école</h2>
+        <p>Il est instructif de se pencher sur trois applications précises. Sans chercher à les condamner, ici leur étude permet d'identifier des rouages psychologiques partagés par l'ensemble du paysage numérique gamifié. Ces trois exemples ne sont pas les pires de leur catégorie. Ils sont, au contraire, parmi les plus populaires, les mieux conçus, les plus appréciés de leurs utilisateurs. Et c'est précisément pourquoi ils méritent qu'on les regarde attentivement.</p>
+
+        <p>Duolingo, d'abord. Sur le papier, c'est une application d'apprentissage des langues. L'une des plus téléchargées au monde, régulièrement citée comme exemple de design engageant réussi, adoptée par des millions d'utilisateurs qui louent son accessibilité et son côté ludique. Dans les faits, Duolingo est l'une des implémentations de gamification les plus sophistiquées et les plus complètes qui existent dans le domaine des applications grand public.</p>
+
+        <p>Analysons sa structure. Les leçons sont courtes (cinq à dix minutes) et présentées comme des niveaux à franchir. Chaque erreur coûte un cœur, entre autres une vie, une ressource limitée qui crée une tension à chaque réponse donnée. Des ligues hebdomadaires classent les utilisateurs les uns par rapport aux autres, instaurant une compétition permanente avec des inconnus. Un système de gemmes permet d'acheter des avantages ou des protections. Et surtout, SURTOUT, le streak : cette petite flamme orange dont le compteur grimpe chaque jour où l'on ouvre l'application, et qui repart à zéro si l'on oublie une journée. J'avais maintenu le mien pendant des jours et des jours. Et je me souviens de toutes ces fois où le soir à presque minuit je me retrouvais à réaliser ma série dans la précipitation pour ne pas perdre ma série, ma petite flamme qui s’éteigne.</p>
+
+        <p>Ce qui est particulièrement révélateur dans le streak de Duolingo, c'est ce qu'il mesure vraiment. Non pas la qualité de l'apprentissage. Non pas la progression réelle dans la langue. Mais la régularité de la connexion à l'application. Un utilisateur qui fait une leçon de deux minutes par jour, qu’on pourrait qualifier de minute de mémorisation superficielle, sans effort réel, maintient son streak autant qu'un autre qui travaille sérieusement pendant trente minutes. Ce qui est valorisé, ce n'est pas le progrès. C'est la présence quotidienne sur l'application. Et donc : la rétention de l'utilisateur. Le streak de Duolingo ne mesure pas votre apprentissage. Il mesure votre dépendance.</p>
+
+        <p>WeWard illustre une autre facette, plus subtile, de la gamification. L'application transforme les pas effectués dans la journée en une monnaie virtuelle, les “Wards”, échangeables contre de l'argent réel, des cartes cadeaux ou des produits partenaires. L'intention affichée est louable : encourager l'activité physique en récompensant un comportement sain. Et dans une certaine mesure, l'application y parvient puisqu’elle pousse certains utilisateurs sédentaires à marcher davantage, et c'est bien.ues. L'une des plus téléchargées au monde, régulièrement citée comme exemple de design engageant réussi, adoptée par des millions d'utilisateurs qui louent son accessibilité et son côté ludique. Dans les faits, Duolingo est l'une des implémentations de gamification les plus sophistiquées et les plus complètes qui existent dans le domaine des applications grand public.</p>
+
+        <p>Mais regardons ce qui se passe à un niveau plus profond. Marcher, pour beaucoup d'entre nous, était déjà quelque chose qu'on faisait : par plaisir, par habitude, pour s'aérer, pour penser. WeWard a introduit une valeur financière dans ce geste. Elle a transformé un acte spontané en performance mesurable et rémunérée. Et maintenant, la question qui se pose inévitablement : si demain WeWard ferme ses portes, ou si les récompenses diminuent, ou si les partenaires se retirent, est-ce qu'on continue à marcher autant ? Ou est-ce qu'on a progressivement remplacé une motivation intérieure par une dépendance à un système de récompense externe qui, lui, peut disparaître à tout moment ?</p>
+
+        <p>Snapchat, enfin, est peut-être l'exemple le plus troublant parce qu'il est le plus nu. Le streak Snapchat n'a aucun objectif d'apprentissage. Aucun bénéfice pour la santé. Aucune valeur productive. C'est simplement un compteur qui mesure combien de jours consécutifs deux personnes se sont envoyé un snap, n'importe quel snap d’ailleurs, même un écran noir, même une photo floue prise à la hâte juste avant minuit pour ne pas perdre la série. Et pourtant, des millions d'adolescents et de jeunes adultes maintiennent ces séries pendant des mois, parfois des années, parce qu’ils ressentent un certain stress réel à l'idée de les rompre, au point de charger des amis de « garder leur streak » quand ils partent en vacances sans téléphone. Ce dont j’ai moi même fait fût un temps.</p>
+
+        <p>Snapchat a réussi quelque chose d'assez extraordinaire : gamifier l'amitié elle-même. Transformer un lien affectif, quelque chose de profondément humain, de non mesurable par essence, en obligation quotidienne chiffrée et visualisée. Le streak ne mesure pas la qualité de la relation. Il ne dit rien sur la profondeur du lien. Il dit seulement que vous avez cliqué sur un bouton chaque jour. Et pourtant, le rompre est vécu comme une trahison.</p>
+
+      <h2 id="section-2">Les mécaniques du piège</h2>
+        <p>Ces trois applications sont radicalement différentes dans leurs objectifs, leur public, leur modèle économique. Mais elles partagent exactement les mêmes mécaniques de base. Ce n'est pas une coïncidence : une boîte à outils universelle que les concepteurs appliquent systématiquement pour leur efficacité.</p>
+
+        <p>La première mécanique est la progression visible. Des jauges, des barres de complétion, des pourcentages, des niveaux qui avancent visuellement. Le cerveau humain est câblé pour trouver ces représentations satisfaisantes : voir un progrès matérialisé déclenche un sentiment de direction, d'accomplissement, de sens. Les designers le savent, et ils en jouent. La barre de progression de votre profil LinkedIn qui monte à 95 % mais pas à 100 tant que vous n'avez pas ajouté votre photo, la jauge de votre streak Duolingo qui grandit chaque jour, tout cela est conçu pour activer ce sentiment de progression et vous inciter à continuer.</p>
+
+        <p>La deuxième mécanique, plus puissante encore, est la récompense variable, imprévisible. On ne sait pas exactement ce qu'on va trouver quand on ouvre l'application. Peut-être un badge. Peut-être un niveau. Peut-être rien. C'est précisément cette incertitude calculée qui rend les systèmes gamifiés si difficiles à quitter, un point sur lequel je reviendrai plus en détail plus tard, à travers l'étude des mécanismes dopaminergiques.</p>
+
+        <p>La troisième mécanique est l'aversion à la perte (Kahneman & Tversky, 1979). Ce terme désigne notre tendance à ressentir la douleur d'une perte de manière psychologiquement deux fois plus intense que le plaisir d'un gain équivalent. Par exemple, perdre 100 euros nous contrarie davantage que gagner 100 euros ne nous réjouit. Les applications gamifiées sont conçues pour rendre les pertes de progression particulièrement saillantes et psychologiquement douloureuses. La série qui peut s'effacer, les cœurs qui peuvent se vider, le niveau qui peut rétrograder, le classement qui peut dégringoler. En rendant les pertes visibles et immédiates, les applications créent une tension permanente qui maintient l'engagement même quand la motivation réelle a disparu depuis longtemps.</p>
+
+        <p>La quatrième mécanique est la dimension sociale. Les classements entre utilisateurs, les défis entre amis, la visibilité publique des progressions. En ajoutant le regard des autres dans l'équation, les applications gamifiées activent un levier motivationnel puissant : le besoin d'appartenance et de reconnaissance sociale. On ne joue plus seulement pour ses propres objectifs, mais on joue aussi pour exister aux yeux des autres, pour ne pas être celui qui a décroché, pour maintenir sa place dans le groupe.</p>
+
+        <p>Il existe une cinquième mécanique, moins souvent nommée mais tout aussi structurante : ce qu'on pourrait appeler l'investissement progressif. Plus on utilise une application, plus on y a mis du temps, de l'énergie, de l'histoire personnelle, et plus il devient psychologiquement difficile de l'abandonner. C'est ce que les économistes comportementaux appellent le biais des coûts irrécupérables (sunk cost fallacy) : la tendance à persister dans une situation non pas parce qu'elle nous convient, mais parce qu'on y a déjà trop investi pour partir. Duolingo l'exploite avec une précision redoutable : chaque jour de streak maintenu augmente le coût psychologique de l'abandon. Après cent jours, abandonner ne signifie plus juste arrêter une application, ça signifie effacer cent jours de soi-même. Et cette pensée est, pour beaucoup d'utilisateurs, tout simplement insupportable.</p>
+
+        <p>Eyal (2014) avait théorisé cela dans son modèle Hooked sous le terme d'investissement : la quatrième étape de la boucle d'engagement, celle qui rend l'utilisateur non seulement dépendant de l'application, mais émotionnellement attaché à ce qu'il y a construit. Un profil enrichi, une série maintenue, un niveau atteint, des données accumulées : autant d'ancres qui retiennent l'utilisateur bien après que la motivation initiale a disparu. L'application devient difficile à quitter non pas parce qu'elle est bonne, mais parce qu'on y a laissé une partie de soi.</p>
+
+        <p>Ce mécanisme explique en partie pourquoi les utilisateurs insatisfaits de leurs applications gamifiées continuent malgré tout à les utiliser. Ce n'est pas de la fidélité. Ce n'est pas de la satisfaction. C'est de l'inertie psychologique, soigneusement cultivée par des concepteurs qui savent que l'attachement à ce qu'on a déjà construit est souvent plus puissant que n'importe quelle récompense future.</p>
+
+      <h2 id="section-3">Pourquoi ces mécaniques nous touchent autant</h2>
+        <p>Une question se pose, légitime : si ces mécaniques sont potentiellement problématiques, pourquoi fonctionnent-elles aussi bien ? Pourquoi des centaines de millions de personnes y adhèrent-elles volontairement, souvent avec enthousiasme ?</p>
+
+        <p>La réponse tient en grande partie à ce que le psychologue Csikszentmihalyi (1990) a appelé le flow : cet état de pleine absorption dans une activité, caractérisé par un équilibre précis entre le niveau de défi et le niveau de compétence de l'individu. Les applications gamifiées sont des machines à produire du flow : elles calibrent en permanence la difficulté pour qu'elle soit juste assez élevée pour stimuler sans décourager, elles fournissent des feedbacks immédiats qui maintiennent l'attention, elles créent des objectifs clairs à court terme qui donnent une direction et un sentiment de progression.</p>
+
+        <p>La gamification répond également à des besoins psychologiques profonds et légitimes. Le besoin de progresser, de se sentir compétent, d'appartenir à une communauté, d'être reconnu pour ses efforts. Bref, des besoins humains fondamentaux, identifiés par des décennies de recherche en psychologie de la motivation. Les applications gamifiées ne créent pas ces besoins : elles les capturent, les exploitent, les canalisent vers leurs propres logiques d'engagement. C'est précisément parce qu'elles répondent à de vraies aspirations humaines qu'elles sont si difficiles à résister.</p>
+
+        <p>Comprendre ça, comprendre que la gamification n'est pas une manipulation grossière mais une exploitation sophistiquée de mécanismes psychologiques réels, est essentiel pour ne pas tomber dans un discours simpliste qui condamnerait le phénomène en bloc. La réalité est plus complexe. Et c'est cette complexité que les chapitres suivants cherchent à démêler.</p>
+
+        <p>Il faut aussi mentionner un paradoxe que la recherche en psychologie commence à documenter sérieusement : plus les utilisateurs sont conscients de ces mécaniques, moins cela suffit à les en protéger. C'est l'un des résultats les plus troublants de l'étude des biais cognitifs : savoir qu'on est manipulé ne rend pas la manipulation inefficace. On peut connaître par cœur le fonctionnement du renforcement variable, avoir lu Skinner, comprendre que la récompense imprévisible est conçue pour créer de la compulsion, et continuer malgré tout à scroller, à vérifier ses notifications, à ressentir une légère anxiété quand la jauge n'est pas remplie. La connaissance intellectuelle et l'expérience vécue opèrent sur des circuits différents. Le cortex préfrontal, siège de la raison et de la planification, peut parfaitement identifier un piège pendant que le système limbique, plus ancien, plus rapide, plus puissant dans les situations de récompense immédiate, y répond quand même.</p>
+
+        <p>C'est précisément pour ça que la gamification est aussi difficile à résister. Elle ne s'adresse pas à la partie de nous qui réfléchit. Elle s'adresse à la partie de nous qui ressent. Et cette partie-là ne lit pas de méta-analyses.</p>
+
+        <p>Cela soulève une question inconfortable pour quiconque croit que l'éducation numérique suffit à résoudre le problème. Informer les utilisateurs des mécaniques de la gamification est utile, ce mémoire en est la preuve. Mais l'information seule ne change pas les comportements à court terme, parce que ces comportements ne sont pas pilotés par l'information. Ils sont pilotés par des boucles neurobiologiques que des siècles d'évolution ont rendues robustes, et que des années d'ingénierie comportementale ont apprises à cibler avec précision. Ce n'est pas une raison de renoncer à informer. C'est une raison de ne pas s'y limiter.</p>
+
+    </article>
+    <button type="button" class="next">niveau suivant</button>
+  </main>
+
+  <footer><span>Master UX/UI Design</span><span>ECV Digital Paris</span></footer>
+
+  <script src="script.js" defer></script>
+  
+</body>
+</html>
