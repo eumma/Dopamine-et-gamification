@@ -1,7 +1,7 @@
 /* 1. Déclaration des polices locales */
 @font-face {
   font-family: "Clash Display";
-  src: url("./fonts/ClashDisplay-Regular.otf") format("otf");
+  src: url("./fonts/ClashDisplay-Regular.otf");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: "Bankara Grotesk";
-  src: url("./fonts/bankara-grotesk.ttf") format("ttf");
+  src: url("./fonts/bankara-grotesk.ttf");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: "Microserif";
-  src: url("./fonts/Microserif.ttf") format("ttf");
+  src: url("./fonts/Microserif.ttf");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
