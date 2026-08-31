@@ -1,5 +1,45 @@
-:root { --black:#121212; --white:#fff; --purple:#351888; --pastel-purple:#d2c2ff; --pastel-green:#b6fb9a; --display:"Clash Display","Arial Narrow","Helvetica Neue",Arial,sans-serif; --bankara:"Bankara Grotesk","Helvetica Neue",Helvetica,Arial,sans-serif; --sans:"Helvetica Neue",Helvetica,Arial,sans-serif; --serif:"Microserif","Courier New",monospace; }
+/* 1. Déclaration des polices locales */
+@font-face {
+  font-family: "Clash Display";
+  src: url("fonts/ClashDisplay-Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bankara Grotesk";
+  src: url("fonts/bankara-grotesk.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Microserif";
+  src: url("fonts/Microserif.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. Tes variables et ton code existant */
+:root {
+  --black:#121212;
+  --white:#fff;
+  --purple:#351888;
+  --pastel-purple:#d2c2ff;
+  --pastel-green:#b6fb9a;
+  --display:"Clash Display","Arial Narrow","Helvetica Neue",Arial,sans-serif;
+  --bankara:"Bankara Grotesk","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --sans:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --serif:"Microserif","Courier New",monospace;
+}
+
 * { box-sizing:border-box; }
+
+
+
 
 html { scroll-behavior: smooth; }
 html, body { margin:0; background:var(--black); }
