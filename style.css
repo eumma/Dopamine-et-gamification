@@ -220,7 +220,7 @@ main { min-height:calc(100vh - 180px); }
 
 
 h2 { margin-top: 200px; margin-bottom: 30px; color:var(--accent-color); font-family:"Clash Display", var(--display); font-size:70px; font-weight:bold; line-height:.89; letter-spacing:-.03em; scroll-margin-top: 120px; }
-.content p { margin:0 0 30px; font-family:"Clash Display", var(--display); font-size:25px; font-weight:400; line-height:normal; letter-spacing:0; }
+.content p { margin:0 0 30px; font-family:"Clash Display", var(--display); font-size:25px; font-weight:bold; line-height:normal; letter-spacing:0; }
 .content p:last-child { margin-bottom:0; }
 .next { width:min(510px, calc(100% - 48px)); height:59px; display:grid; place-items:center; margin:0 auto 90px; border:2px solid var(--purple); box-shadow:inset -5px -7px 0 var(--pastel-purple); color:var(--purple); cursor:pointer; background:var(--white); font-family:var(--serif); font-size:40px; font-weight:400; line-height:1; letter-spacing:-2px; text-decoration:none; text-transform:uppercase; transition:transform .2s ease, color .2s ease; }
 .next:hover, .next:focus-visible { color:var(--pastel-purple); background:var(--white); outline:none; transform:translateY(-4px); }
