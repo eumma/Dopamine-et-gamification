@@ -1,19 +1,19 @@
 /* 1. Déclaration des polices locales */
 @font-face {
   font-family: "Clash Display";
-  src: url("./fonts/ClashDisplay-Regular.otf"); /* Adapte l'extension .otf ou .ttf selon ton fichier */
+  src: url("./fonts/ClashDisplay-Regular.otf");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Bankara Grotesk";
-  src: url("./fonts/BankaraGrotesk-Regular.otf"); /* Adapte le nom exact du fichier */
+  src: url("./fonts/bankara-grotesk.ttf");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Microserif";
-  src: url("./fonts/Microserif-Regular.otf"); /* Adapte le nom exact du fichier */
+  src: url("./fonts/Microserif.ttf");
   font-display: swap;
 }
 
